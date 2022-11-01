@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <div class="progress-bar">
+        <div class="duration-name"></div>
+        <div class="progress-player">
+          <div class="progress"></div>
+        </div>
+        <div class="duration">
+          <div class="duration-time">
+            <div class="current"></div>
+            <div class="divider">/</div>
+            <div class="length-song"></div>
+          </div>
+          <div class="volume-container">
+            <div class="volume-button">
+              <div class="volume icono-volumeMedium"></div>
+            </div>
+            <div class="volume-slider">
+              <div class="volume-percentage"></div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="play-list"></ul>
+      </div>
+    </div>
+    <div class="language-all">
+      <div class="language russian">Рус</div>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" value="Minsk" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-next-flickr slider-icon">Flickr API</button>
+      <button class="slide-prev-flickr slider-icon">Flickr API</button>
+      <button class="slide-next-unsplash slider-icon">Unsplash API</button>
+      <button class="slide-prev-unsplash slider-icon">Unsplash API</button>
+      <button class="slide-next slider-icon">Api</button>
+      <button class="slide-prev slider-icon">Api</button>
+
+    </div>
+    <time class="time"></time>
+    <date class="date">
+      <div id="output"></div>
+    </date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name placeholder" placeholder="[Enter your name]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <div class="logo">
+      <a href="https://github.com/KOSHAK2008" class="logo-author"></a>
+      <p>2022</p>
+      <a href="https://rs.school/js/" class="logo-rsschool"></a>
+    </div>
+  </footer>
+  <script type="module" src="js/script.js"></script>
+
+</html>
