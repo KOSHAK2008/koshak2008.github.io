@@ -1,1 +1,2 @@
-https://KOSHAK2008.github.io/rsschool-cv/
+My portfolio is in progressing at the moment:
+https://KOSHAK2008.github.io/
