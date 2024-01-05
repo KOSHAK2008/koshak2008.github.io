@@ -1,13 +1,13 @@
 <img width="1199" alt="code-quality-task-screenshot" src="https://user-images.githubusercontent.com/8201843/113413843-4080fb80-93c4-11eb-9f20-15e4b4c1e430.png">
 
-# Функционал приложения :
+# Application Functionality :
 
-    - Добавление нового элемента в список задач "TODO"
-    - Редактирование элемента в списке задач "TODO"
-    - Удаление элемента из списка задач "TODO"
-    - Установка элемента в статус завершенного и перенос в список "COMPLETED" через checkbox
+    - Adding a new item to the "TODO" task list
+    - Editing an item in the "TODO" task list
+    - Deleting an item from the "TODO" task list
+    - Setting an item to completed status and moving it to the "COMPLETED" list via checkbox
 
-    - Удаление элемента из списка "COMPLETED"
-    - Редактирование элемента из списка "COMPLETED"
-    - Установка элемента в статус незавершенного и перенос в список "TODO" через checkbox
-    - Анимация на кнопке удаления
+    - Deleting an item from the "COMPLETED" list
+    - Editing an item from the "COMPLETED" list
+    - Setting an item to "Incomplete" status and moving it to the "TODO" list via checkbox
+    - Animation on the delete button
